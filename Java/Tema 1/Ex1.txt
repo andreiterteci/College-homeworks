@@ -1,0 +1,37 @@
+package javaapplication1;
+
+import java.util.*;
+
+public class JavaApplication1 {
+
+    public static boolean pal(String x)
+    {
+        String inv = ""; 
+		
+        int lungime = x.length();
+		
+        for(int i= lungime-1; i>=0; i--)
+            inv = inv + x.charAt(i);
+			
+        if(x.equals(inv))
+            return true;
+        else 
+            return false;
+    }
+    
+    public static void main(String[] args) 
+    {
+       Scanner in = new Scanner(System.in);
+       
+	   String sir;
+       System.out.println("Introduceti sirul de caractere:\n");
+       
+	   sir = in.nextLine();
+       
+	   if(pal(sir))
+           System.out.println("Este palindrom");
+       else
+            System.out.println("Nu este palindrom");
+    }
+    
+}
