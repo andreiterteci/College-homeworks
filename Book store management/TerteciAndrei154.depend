@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1495899250 source:d:\facultate\an i\semestrul ii\poo\teme poo\tema 3\terteciandrei154\carte.cpp
+	<iostream>
+	"carte.h"
+	<string.h>
+	<fstream>
+	<conio.h>
+	<iomanip>
+
+1495881870 d:\facultate\an i\semestrul ii\poo\teme poo\tema 3\terteciandrei154\carte.h
+	<iostream>
+	<string.h>
+	<fstream>
+
+1495898994 source:d:\facultate\an i\semestrul ii\poo\teme poo\tema 3\terteciandrei154\main.cpp
+	<iostream>
+	"carte.h"
+	<fstream>
+	<conio.h>
+	<stdio.h>
+	<process.h>
+	<string.h>
+	<iomanip>
+	<stdlib.h>
+	"lista.h"
+
+1495897170 d:\facultate\an i\semestrul ii\poo\teme poo\tema 3\terteciandrei154\lista.h
+	<iostream>
+	<string.h>
+	"carte.h"
+
