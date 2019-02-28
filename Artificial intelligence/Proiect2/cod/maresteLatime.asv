@@ -1,0 +1,23 @@
+function img = maresteLatime(img,numarPixeliLatime,metodaSelectareDrum,ploteazaDrum,culoareDrum)
+
+matDrumuri = [];
+
+for i = 1:numarPixeliLatime
+    
+    disp(['Alegem drumul vertical numarul ' num2str(i) ' dintr-un total de ' num2str(numarPixeliLatime)]);
+    
+    E = calculeazaEnergie(img);
+    
+
+    drum = selecteazaDrumVertical(E,metodaSelectareDrum);
+    
+    matDrumuri = [matDrumuri drum(:,2)];
+    
+    img = eliminaDrumVertical(img,drum);
+
+end
+
+    for idx = 1:size(matDrumuri,2)
+        drum = 
+        
+    end
